@@ -1,0 +1,6 @@
+{
+  "name": "LockMyHealth",
+  "description": "LockMyHealth — Your health, connected. Unified medical-history vault, health timeline, doctor handovers, medication reconciliation, and patient-controlled record sharing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
