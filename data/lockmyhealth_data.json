@@ -1,0 +1,2287 @@
+{
+  "users": {
+    "patient-001": {
+      "id": "patient-001",
+      "email": "aarav.patient@example.test",
+      "name": "Aarav Mehta",
+      "age": 34,
+      "gender": "Male",
+      "bloodGroup": "O+",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Nisha Mehta",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20001"
+      },
+      "role": "patient"
+    },
+    "patient-002": {
+      "id": "patient-002",
+      "email": "diya.patient@example.test",
+      "name": "Diya Nair",
+      "age": 27,
+      "gender": "Female",
+      "bloodGroup": "A+",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Anil Nair",
+        "relationship": "Father",
+        "phone": "+91-90000-20002"
+      },
+      "role": "patient"
+    },
+    "patient-003": {
+      "id": "patient-003",
+      "email": "ishaan.patient@example.test",
+      "name": "Ishaan Rao",
+      "age": 41,
+      "gender": "Male",
+      "bloodGroup": "B+",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Meera Rao",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20003"
+      },
+      "role": "patient"
+    },
+    "patient-004": {
+      "id": "patient-004",
+      "email": "ananya.patient@example.test",
+      "name": "Ananya Iyer",
+      "age": 23,
+      "gender": "Female",
+      "bloodGroup": "AB+",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Kavita Iyer",
+        "relationship": "Mother",
+        "phone": "+91-90000-20004"
+      },
+      "role": "patient"
+    },
+    "patient-005": {
+      "id": "patient-005",
+      "email": "kabir.patient@example.test",
+      "name": "Kabir Reddy",
+      "age": 56,
+      "gender": "Male",
+      "bloodGroup": "O-",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Sana Reddy",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20005"
+      },
+      "role": "patient"
+    },
+    "patient-006": {
+      "id": "patient-006",
+      "email": "saanvi.patient@example.test",
+      "name": "Saanvi Das",
+      "age": 32,
+      "gender": "Female",
+      "bloodGroup": "A-",
+      "isDemo": false,
+      "emergencyContact": {
+        "name": "Arjun Das",
+        "relationship": "Sibling",
+        "phone": "+91-90000-20006"
+      },
+      "role": "patient"
+    },
+    "doctor-001": {
+      "id": "doctor-001",
+      "email": "maya.sharma.doctor@example.test",
+      "name": "Dr. Maya Sharma",
+      "role": "doctor",
+      "specialty": "General Medicine",
+      "facility": "City Care Clinic",
+      "contact": "+91-90000-30001",
+      "address": "Chennai, Tamil Nadu",
+      "isDemo": false,
+      "age": null,
+      "gender": null,
+      "bloodGroup": null,
+      "hospitalOrFacility": "City Care Clinic"
+    },
+    "doctor-002": {
+      "id": "doctor-002",
+      "email": "arjun.menon.doctor@example.test",
+      "name": "Dr. Arjun Menon",
+      "role": "doctor",
+      "specialty": "Cardiology",
+      "facility": "Heartwell Medical Centre",
+      "contact": "+91-90000-30002",
+      "address": "Chennai, Tamil Nadu",
+      "isDemo": false,
+      "age": null,
+      "gender": null,
+      "bloodGroup": null,
+      "hospitalOrFacility": "Heartwell Medical Centre"
+    },
+    "doctor-003": {
+      "id": "doctor-003",
+      "email": "priya.iyer.doctor@example.test",
+      "name": "Dr. Priya Iyer",
+      "role": "doctor",
+      "specialty": "Dermatology",
+      "facility": "SkinCare Clinic",
+      "contact": "+91-90000-30003",
+      "address": "Chennai, Tamil Nadu",
+      "isDemo": false,
+      "age": null,
+      "gender": null,
+      "bloodGroup": null,
+      "hospitalOrFacility": "SkinCare Clinic"
+    },
+    "doctor-004": {
+      "id": "doctor-004",
+      "email": "rahul.verma.doctor@example.test",
+      "name": "Dr. Rahul Verma",
+      "role": "doctor",
+      "specialty": "Endocrinology",
+      "facility": "Wellness Specialty Hospital",
+      "contact": "+91-90000-30004",
+      "address": "Chennai, Tamil Nadu",
+      "isDemo": false,
+      "age": null,
+      "gender": null,
+      "bloodGroup": null,
+      "hospitalOrFacility": "Wellness Specialty Hospital"
+    }
+  },
+  "providers": {
+    "patient-001": [
+      {
+        "id": "doctor-001",
+        "name": "Dr. Maya Sharma",
+        "role": "doctor",
+        "specialty": "General Medicine",
+        "facility": "City Care Clinic",
+        "contact": "+91-90000-30001",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#2563eb",
+        "email": "maya.sharma.doctor@example.test"
+      },
+      {
+        "id": "doctor-002",
+        "name": "Dr. Arjun Menon",
+        "role": "doctor",
+        "specialty": "Cardiology",
+        "facility": "Heartwell Medical Centre",
+        "contact": "+91-90000-30002",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#0f766e",
+        "email": "arjun.menon.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "doctor-002",
+        "name": "Dr. Arjun Menon",
+        "role": "doctor",
+        "specialty": "Cardiology",
+        "facility": "Heartwell Medical Centre",
+        "contact": "+91-90000-30002",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#0f766e",
+        "email": "arjun.menon.doctor@example.test"
+      },
+      {
+        "id": "doctor-003",
+        "name": "Dr. Priya Iyer",
+        "role": "doctor",
+        "specialty": "Dermatology",
+        "facility": "SkinCare Clinic",
+        "contact": "+91-90000-30003",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#9333ea",
+        "email": "priya.iyer.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "doctor-003",
+        "name": "Dr. Priya Iyer",
+        "role": "doctor",
+        "specialty": "Dermatology",
+        "facility": "SkinCare Clinic",
+        "contact": "+91-90000-30003",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#9333ea",
+        "email": "priya.iyer.doctor@example.test"
+      },
+      {
+        "id": "doctor-004",
+        "name": "Dr. Rahul Verma",
+        "role": "doctor",
+        "specialty": "Endocrinology",
+        "facility": "Wellness Specialty Hospital",
+        "contact": "+91-90000-30004",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#ea580c",
+        "email": "rahul.verma.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "doctor-001",
+        "name": "Dr. Maya Sharma",
+        "role": "doctor",
+        "specialty": "General Medicine",
+        "facility": "City Care Clinic",
+        "contact": "+91-90000-30001",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#2563eb",
+        "email": "maya.sharma.doctor@example.test"
+      },
+      {
+        "id": "doctor-004",
+        "name": "Dr. Rahul Verma",
+        "role": "doctor",
+        "specialty": "Endocrinology",
+        "facility": "Wellness Specialty Hospital",
+        "contact": "+91-90000-30004",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#ea580c",
+        "email": "rahul.verma.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "doctor-001",
+        "name": "Dr. Maya Sharma",
+        "role": "doctor",
+        "specialty": "General Medicine",
+        "facility": "City Care Clinic",
+        "contact": "+91-90000-30001",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#2563eb",
+        "email": "maya.sharma.doctor@example.test"
+      },
+      {
+        "id": "doctor-002",
+        "name": "Dr. Arjun Menon",
+        "role": "doctor",
+        "specialty": "Cardiology",
+        "facility": "Heartwell Medical Centre",
+        "contact": "+91-90000-30002",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#0f766e",
+        "email": "arjun.menon.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "doctor-002",
+        "name": "Dr. Arjun Menon",
+        "role": "doctor",
+        "specialty": "Cardiology",
+        "facility": "Heartwell Medical Centre",
+        "contact": "+91-90000-30002",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#0f766e",
+        "email": "arjun.menon.doctor@example.test"
+      },
+      {
+        "id": "doctor-003",
+        "name": "Dr. Priya Iyer",
+        "role": "doctor",
+        "specialty": "Dermatology",
+        "facility": "SkinCare Clinic",
+        "contact": "+91-90000-30003",
+        "address": "Chennai, Tamil Nadu",
+        "color": "#9333ea",
+        "email": "priya.iyer.doctor@example.test"
+      },
+      {
+        "id": "lab-provider-001",
+        "name": "Greenfield Diagnostics",
+        "role": "Diagnostic Laboratory",
+        "specialty": "Clinical Pathology",
+        "facility": "Greenfield Diagnostics Centre",
+        "phone": "+91-90000-10002",
+        "email": "reports@example.test",
+        "address": "20 Demo Avenue",
+        "color": "#0284c7"
+      }
+    ]
+  },
+  "documents": {
+    "patient-001": [
+      {
+        "id": "doc-001",
+        "userId": "patient-001",
+        "title": "General Consultation Note",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:30:00Z",
+        "fileUrl": "/mock-files/patient-001-consultation.pdf",
+        "fileName": "consultation_note.pdf",
+        "fileSize": 125000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["consultation", "allergy"],
+        "notes": "Fictional sample consultation record.",
+        "extractedData": {
+          "documentType": "Consultation Note",
+          "providerName": "Dr. Maya Sharma",
+          "documentDate": "2026-09-12",
+          "diagnoses": ["Seasonal allergic rhinitis"],
+          "medications": [
+            {
+              "name": "Cetirizine",
+              "dose": "10 mg",
+              "route": "Oral",
+              "frequency": "As prescribed",
+              "duration": "Sample only",
+              "verified": false
+            }
+          ],
+          "allergies": ["Pollen (reported)"],
+          "notes": "Demo data; not medical advice."
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 not a real medical document."
+      },
+      {
+        "id": "doc-002",
+        "userId": "patient-001",
+        "title": "Complete Blood Count",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-10",
+        "uploadedAt": "2026-09-10T08:00:00Z",
+        "fileUrl": "/mock-files/patient-001-cbc.pdf",
+        "fileName": "cbc_report.pdf",
+        "fileSize": 98000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["CBC", "screening"],
+        "notes": "Synthetic values for interface testing.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-10",
+          "labResults": [
+            {
+              "testName": "Hemoglobin",
+              "value": "13.8",
+              "numericValue": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "Example range 12.0-16.0",
+              "isAbnormal": false,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 values are illustrative."
+      },
+      {
+        "id": "doc-003",
+        "userId": "patient-001",
+        "title": "Prescription Sample",
+        "category": "prescription",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:35:00Z",
+        "fileUrl": "/mock-files/patient-001-prescription.pdf",
+        "fileName": "prescription.pdf",
+        "fileSize": 76000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["prescription"],
+        "notes": "Illustrative prescription entry; not for treatment.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "doc-004",
+        "userId": "patient-002",
+        "title": "Annual Health Check",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-08",
+        "uploadedAt": "2026-09-08T09:15:00Z",
+        "fileUrl": "/mock-files/patient-002-health-check.pdf",
+        "fileName": "health_check.pdf",
+        "fileSize": 110000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["annual check", "lab"],
+        "notes": "Synthetic sample with an out-of-range example.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-08",
+          "labResults": [
+            {
+              "testName": "Fasting Glucose",
+              "value": "108",
+              "numericValue": 108,
+              "unit": "mg/dL",
+              "referenceRange": "Example range 70-99",
+              "isAbnormal": true,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 abnormal flag is illustrative."
+      },
+      {
+        "id": "doc-005",
+        "userId": "patient-002",
+        "title": "Follow-up Consultation",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-15",
+        "uploadedAt": "2026-09-15T12:00:00Z",
+        "fileUrl": "/mock-files/patient-002-followup.pdf",
+        "fileName": "follow_up.pdf",
+        "fileSize": 87000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine follow-up",
+        "tags": ["follow-up"],
+        "notes": "Fictional follow-up record.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "doc-003-001",
+        "userId": "patient-003",
+        "title": "General Consultation Note",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:30:00Z",
+        "fileUrl": "/mock-files/patient-003-consultation.pdf",
+        "fileName": "consultation_note.pdf",
+        "fileSize": 125000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["consultation", "allergy"],
+        "notes": "Fictional sample record for Ishaan Rao; demo data only.",
+        "extractedData": {
+          "documentType": "Consultation Note",
+          "providerName": "Dr. Maya Sharma",
+          "documentDate": "2026-09-12",
+          "diagnoses": ["Seasonal allergic rhinitis"],
+          "medications": [
+            {
+              "name": "Cetirizine",
+              "dose": "10 mg",
+              "route": "Oral",
+              "frequency": "As prescribed",
+              "duration": "Sample only",
+              "verified": false
+            }
+          ],
+          "allergies": ["Pollen (reported)"],
+          "notes": "Demo data; not medical advice."
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 not a real medical document."
+      },
+      {
+        "id": "doc-003-002",
+        "userId": "patient-003",
+        "title": "Complete Blood Count",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-10",
+        "uploadedAt": "2026-09-10T08:00:00Z",
+        "fileUrl": "/mock-files/patient-003-cbc.pdf",
+        "fileName": "cbc_report.pdf",
+        "fileSize": 98000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["CBC", "screening"],
+        "notes": "Fictional sample record for Ishaan Rao; demo data only.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-10",
+          "labResults": [
+            {
+              "testName": "Hemoglobin",
+              "value": "13.8",
+              "numericValue": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "Example range 12.0-16.0",
+              "isAbnormal": false,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 values are illustrative."
+      },
+      {
+        "id": "doc-003-003",
+        "userId": "patient-003",
+        "title": "Prescription Sample",
+        "category": "prescription",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:35:00Z",
+        "fileUrl": "/mock-files/patient-003-prescription.pdf",
+        "fileName": "prescription.pdf",
+        "fileSize": 76000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["prescription"],
+        "notes": "Fictional sample record for Ishaan Rao; demo data only.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "doc-004-001",
+        "userId": "patient-004",
+        "title": "General Consultation Note",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:30:00Z",
+        "fileUrl": "/mock-files/patient-004-consultation.pdf",
+        "fileName": "consultation_note.pdf",
+        "fileSize": 125000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["consultation", "allergy"],
+        "notes": "Fictional sample record for Ananya Iyer; demo data only.",
+        "extractedData": {
+          "documentType": "Consultation Note",
+          "providerName": "Dr. Maya Sharma",
+          "documentDate": "2026-09-12",
+          "diagnoses": ["Seasonal allergic rhinitis"],
+          "medications": [
+            {
+              "name": "Cetirizine",
+              "dose": "10 mg",
+              "route": "Oral",
+              "frequency": "As prescribed",
+              "duration": "Sample only",
+              "verified": false
+            }
+          ],
+          "allergies": ["Pollen (reported)"],
+          "notes": "Demo data; not medical advice."
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 not a real medical document."
+      },
+      {
+        "id": "doc-004-002",
+        "userId": "patient-004",
+        "title": "Complete Blood Count",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-10",
+        "uploadedAt": "2026-09-10T08:00:00Z",
+        "fileUrl": "/mock-files/patient-004-cbc.pdf",
+        "fileName": "cbc_report.pdf",
+        "fileSize": 98000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["CBC", "screening"],
+        "notes": "Fictional sample record for Ananya Iyer; demo data only.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-10",
+          "labResults": [
+            {
+              "testName": "Hemoglobin",
+              "value": "13.8",
+              "numericValue": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "Example range 12.0-16.0",
+              "isAbnormal": false,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 values are illustrative."
+      },
+      {
+        "id": "doc-004-003",
+        "userId": "patient-004",
+        "title": "Prescription Sample",
+        "category": "prescription",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:35:00Z",
+        "fileUrl": "/mock-files/patient-004-prescription.pdf",
+        "fileName": "prescription.pdf",
+        "fileSize": 76000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["prescription"],
+        "notes": "Fictional sample record for Ananya Iyer; demo data only.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "doc-005-001",
+        "userId": "patient-005",
+        "title": "General Consultation Note",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:30:00Z",
+        "fileUrl": "/mock-files/patient-005-consultation.pdf",
+        "fileName": "consultation_note.pdf",
+        "fileSize": 125000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["consultation", "allergy"],
+        "notes": "Fictional sample record for Kabir Reddy; demo data only.",
+        "extractedData": {
+          "documentType": "Consultation Note",
+          "providerName": "Dr. Maya Sharma",
+          "documentDate": "2026-09-12",
+          "diagnoses": ["Seasonal allergic rhinitis"],
+          "medications": [
+            {
+              "name": "Cetirizine",
+              "dose": "10 mg",
+              "route": "Oral",
+              "frequency": "As prescribed",
+              "duration": "Sample only",
+              "verified": false
+            }
+          ],
+          "allergies": ["Pollen (reported)"],
+          "notes": "Demo data; not medical advice."
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 not a real medical document."
+      },
+      {
+        "id": "doc-005-002",
+        "userId": "patient-005",
+        "title": "Complete Blood Count",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-10",
+        "uploadedAt": "2026-09-10T08:00:00Z",
+        "fileUrl": "/mock-files/patient-005-cbc.pdf",
+        "fileName": "cbc_report.pdf",
+        "fileSize": 98000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["CBC", "screening"],
+        "notes": "Fictional sample record for Kabir Reddy; demo data only.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-10",
+          "labResults": [
+            {
+              "testName": "Hemoglobin",
+              "value": "13.8",
+              "numericValue": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "Example range 12.0-16.0",
+              "isAbnormal": false,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 values are illustrative."
+      },
+      {
+        "id": "doc-005-003",
+        "userId": "patient-005",
+        "title": "Prescription Sample",
+        "category": "prescription",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:35:00Z",
+        "fileUrl": "/mock-files/patient-005-prescription.pdf",
+        "fileName": "prescription.pdf",
+        "fileSize": 76000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["prescription"],
+        "notes": "Fictional sample record for Kabir Reddy; demo data only.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "doc-006-001",
+        "userId": "patient-006",
+        "title": "General Consultation Note",
+        "category": "consultation_note",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:30:00Z",
+        "fileUrl": "/mock-files/patient-006-consultation.pdf",
+        "fileName": "consultation_note.pdf",
+        "fileSize": 125000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["consultation", "allergy"],
+        "notes": "Fictional sample record for Saanvi Das; demo data only.",
+        "extractedData": {
+          "documentType": "Consultation Note",
+          "providerName": "Dr. Maya Sharma",
+          "documentDate": "2026-09-12",
+          "diagnoses": ["Seasonal allergic rhinitis"],
+          "medications": [
+            {
+              "name": "Cetirizine",
+              "dose": "10 mg",
+              "route": "Oral",
+              "frequency": "As prescribed",
+              "duration": "Sample only",
+              "verified": false
+            }
+          ],
+          "allergies": ["Pollen (reported)"],
+          "notes": "Demo data; not medical advice."
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 not a real medical document."
+      },
+      {
+        "id": "doc-006-002",
+        "userId": "patient-006",
+        "title": "Complete Blood Count",
+        "category": "lab_report",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentDate": "2026-09-10",
+        "uploadedAt": "2026-09-10T08:00:00Z",
+        "fileUrl": "/mock-files/patient-006-cbc.pdf",
+        "fileName": "cbc_report.pdf",
+        "fileSize": 98000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Routine screening",
+        "tags": ["CBC", "screening"],
+        "notes": "Fictional sample record for Saanvi Das; demo data only.",
+        "extractedData": {
+          "documentType": "Lab Report",
+          "providerName": "Greenfield Diagnostics",
+          "documentDate": "2026-09-10",
+          "labResults": [
+            {
+              "testName": "Hemoglobin",
+              "value": "13.8",
+              "numericValue": 13.8,
+              "unit": "g/dL",
+              "referenceRange": "Example range 12.0-16.0",
+              "isAbnormal": false,
+              "verified": false
+            }
+          ]
+        },
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD \u2014 values are illustrative."
+      },
+      {
+        "id": "doc-006-003",
+        "userId": "patient-006",
+        "title": "Prescription Sample",
+        "category": "prescription",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentDate": "2026-09-12",
+        "uploadedAt": "2026-09-12T10:35:00Z",
+        "fileUrl": "/mock-files/patient-006-prescription.pdf",
+        "fileName": "prescription.pdf",
+        "fileSize": 76000,
+        "fileMimeType": "application/pdf",
+        "primaryCondition": "Seasonal allergies",
+        "tags": ["prescription"],
+        "notes": "Fictional sample record for Saanvi Das; demo data only.",
+        "isVerified": false,
+        "ocrTextPreview": "SYNTHETIC DEMO RECORD."
+      }
+    ]
+  },
+  "timelineEvents": {
+    "patient-001": [
+      {
+        "id": "evt-001",
+        "userId": "patient-001",
+        "date": "2026-09-12",
+        "type": "consultation",
+        "title": "General consultation",
+        "description": "Synthetic demo consultation event.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-001",
+        "condition": "Seasonal allergies",
+        "sourceType": "patient_entered",
+        "details": {
+          "demo": true
+        }
+      },
+      {
+        "id": "evt-002",
+        "userId": "patient-001",
+        "date": "2026-09-10",
+        "type": "lab_result",
+        "title": "CBC report uploaded",
+        "description": "Synthetic lab report attached.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-002",
+        "condition": "Routine screening",
+        "sourceType": "extracted"
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "evt-003",
+        "userId": "patient-002",
+        "date": "2026-09-15",
+        "type": "follow_up",
+        "title": "Follow-up consultation",
+        "description": "Synthetic follow-up event.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-005",
+        "condition": "Routine follow-up",
+        "sourceType": "confirmed"
+      },
+      {
+        "id": "evt-004",
+        "userId": "patient-002",
+        "date": "2026-09-08",
+        "type": "lab_result",
+        "title": "Annual health check results",
+        "description": "Synthetic lab results recorded.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-004",
+        "condition": "Routine screening",
+        "sourceType": "ai_explanation",
+        "details": {
+          "explanation": "Illustrative explanation only; confirm results with a clinician."
+        }
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "evt-003-001",
+        "userId": "patient-003",
+        "date": "2026-09-12",
+        "type": "consultation",
+        "title": "General consultation",
+        "description": "Synthetic demo event for Ishaan Rao.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-003-001",
+        "condition": "Routine health screening",
+        "sourceType": "patient_entered",
+        "details": {
+          "demo": true
+        }
+      },
+      {
+        "id": "evt-003-002",
+        "userId": "patient-003",
+        "date": "2026-09-10",
+        "type": "lab_result",
+        "title": "CBC report uploaded",
+        "description": "Synthetic demo event for Ishaan Rao.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-003-002",
+        "condition": "Routine health screening",
+        "sourceType": "extracted"
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "evt-004-001",
+        "userId": "patient-004",
+        "date": "2026-09-12",
+        "type": "consultation",
+        "title": "General consultation",
+        "description": "Synthetic demo event for Ananya Iyer.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-004-001",
+        "condition": "Vitamin D follow-up",
+        "sourceType": "patient_entered",
+        "details": {
+          "demo": true
+        }
+      },
+      {
+        "id": "evt-004-002",
+        "userId": "patient-004",
+        "date": "2026-09-10",
+        "type": "lab_result",
+        "title": "CBC report uploaded",
+        "description": "Synthetic demo event for Ananya Iyer.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-004-002",
+        "condition": "Vitamin D follow-up",
+        "sourceType": "extracted"
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "evt-005-001",
+        "userId": "patient-005",
+        "date": "2026-09-12",
+        "type": "consultation",
+        "title": "General consultation",
+        "description": "Synthetic demo event for Kabir Reddy.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-005-001",
+        "condition": "Blood pressure monitoring",
+        "sourceType": "patient_entered",
+        "details": {
+          "demo": true
+        }
+      },
+      {
+        "id": "evt-005-002",
+        "userId": "patient-005",
+        "date": "2026-09-10",
+        "type": "lab_result",
+        "title": "CBC report uploaded",
+        "description": "Synthetic demo event for Kabir Reddy.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-005-002",
+        "condition": "Blood pressure monitoring",
+        "sourceType": "extracted"
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "evt-006-001",
+        "userId": "patient-006",
+        "date": "2026-09-12",
+        "type": "consultation",
+        "title": "General consultation",
+        "description": "Synthetic demo event for Saanvi Das.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-006-001",
+        "condition": "Seasonal allergies",
+        "sourceType": "patient_entered",
+        "details": {
+          "demo": true
+        }
+      },
+      {
+        "id": "evt-006-002",
+        "userId": "patient-006",
+        "date": "2026-09-10",
+        "type": "lab_result",
+        "title": "CBC report uploaded",
+        "description": "Synthetic demo event for Saanvi Das.",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-006-002",
+        "condition": "Seasonal allergies",
+        "sourceType": "extracted"
+      }
+    ]
+  },
+  "medications": {
+    "patient-001": [
+      {
+        "id": "med-001",
+        "userId": "patient-001",
+        "name": "Cetirizine (sample)",
+        "dose": "10 mg",
+        "frequency": "As prescribed",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-003",
+        "startDate": "2026-09-12",
+        "status": "needs_review",
+        "condition": "Seasonal allergies",
+        "patientNotes": "Synthetic test record.",
+        "markedForReview": true
+      },
+      {
+        "id": "med-002",
+        "userId": "patient-001",
+        "name": "Old sample medication",
+        "dose": "5 mg",
+        "frequency": "Once daily",
+        "instructions": "Historical demo record, not a real prescription.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2025-02-01",
+        "endDate": "2025-04-01",
+        "status": "historical",
+        "condition": "Demo historical entry",
+        "lastReviewedDate": "2025-04-01"
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "med-003",
+        "userId": "patient-002",
+        "name": "Sample medication A",
+        "dose": "Example dose",
+        "frequency": "Example frequency",
+        "instructions": "Fictional record for UI testing; do not use clinically.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-005",
+        "startDate": "2026-09-15",
+        "status": "active_confirmed",
+        "condition": "Routine follow-up",
+        "lastReviewedDate": "2026-09-15"
+      },
+      {
+        "id": "med-004",
+        "userId": "patient-002",
+        "name": "Sample medication B",
+        "dose": "Example dose",
+        "frequency": "Example frequency",
+        "instructions": "Fictional discontinued entry for status testing.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2026-01-01",
+        "endDate": "2026-05-01",
+        "status": "discontinued_confirmed",
+        "condition": "Demo condition",
+        "lastReviewedDate": "2026-05-01"
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "med-003-001",
+        "userId": "patient-003",
+        "name": "Cetirizine (sample)",
+        "dose": "10 mg",
+        "frequency": "As prescribed",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-003-003",
+        "startDate": "2026-09-12",
+        "status": "needs_review",
+        "condition": "Routine health screening",
+        "patientNotes": "Synthetic test record.",
+        "markedForReview": true
+      },
+      {
+        "id": "med-003-002",
+        "userId": "patient-003",
+        "name": "Old sample medication",
+        "dose": "5 mg",
+        "frequency": "Once daily",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2025-02-01",
+        "endDate": "2025-04-01",
+        "status": "historical",
+        "condition": "Routine health screening",
+        "lastReviewedDate": "2025-04-01"
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "med-004-001",
+        "userId": "patient-004",
+        "name": "Cetirizine (sample)",
+        "dose": "10 mg",
+        "frequency": "As prescribed",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-004-003",
+        "startDate": "2026-09-12",
+        "status": "needs_review",
+        "condition": "Vitamin D follow-up",
+        "patientNotes": "Synthetic test record.",
+        "markedForReview": true
+      },
+      {
+        "id": "med-004-002",
+        "userId": "patient-004",
+        "name": "Old sample medication",
+        "dose": "5 mg",
+        "frequency": "Once daily",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2025-02-01",
+        "endDate": "2025-04-01",
+        "status": "historical",
+        "condition": "Vitamin D follow-up",
+        "lastReviewedDate": "2025-04-01"
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "med-005-001",
+        "userId": "patient-005",
+        "name": "Cetirizine (sample)",
+        "dose": "10 mg",
+        "frequency": "As prescribed",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-005-003",
+        "startDate": "2026-09-12",
+        "status": "needs_review",
+        "condition": "Blood pressure monitoring",
+        "patientNotes": "Synthetic test record.",
+        "markedForReview": true
+      },
+      {
+        "id": "med-005-002",
+        "userId": "patient-005",
+        "name": "Old sample medication",
+        "dose": "5 mg",
+        "frequency": "Once daily",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2025-02-01",
+        "endDate": "2025-04-01",
+        "status": "historical",
+        "condition": "Blood pressure monitoring",
+        "lastReviewedDate": "2025-04-01"
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "med-006-001",
+        "userId": "patient-006",
+        "name": "Cetirizine (sample)",
+        "dose": "10 mg",
+        "frequency": "As prescribed",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "documentId": "doc-006-003",
+        "startDate": "2026-09-12",
+        "status": "needs_review",
+        "condition": "Seasonal allergies",
+        "patientNotes": "Synthetic test record.",
+        "markedForReview": true
+      },
+      {
+        "id": "med-006-002",
+        "userId": "patient-006",
+        "name": "Old sample medication",
+        "dose": "5 mg",
+        "frequency": "Once daily",
+        "instructions": "Demo entry only; not a treatment recommendation.",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "startDate": "2025-02-01",
+        "endDate": "2025-04-01",
+        "status": "historical",
+        "condition": "Seasonal allergies",
+        "lastReviewedDate": "2025-04-01"
+      }
+    ]
+  },
+  "labResults": {
+    "patient-001": [
+      {
+        "id": "lab-001",
+        "userId": "patient-001",
+        "testName": "Hemoglobin",
+        "category": "Hematology",
+        "value": "13.8",
+        "numericValue": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "Example range 12.0-16.0",
+        "minNormal": 12.0,
+        "maxNormal": 16.0,
+        "isAbnormal": false,
+        "testDate": "2026-09-10",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-002",
+        "aiExplanation": "Illustrative demo explanation only."
+      },
+      {
+        "id": "lab-002",
+        "userId": "patient-001",
+        "testName": "Vitamin D",
+        "category": "Other",
+        "value": "18",
+        "numericValue": 18,
+        "unit": "ng/mL",
+        "referenceRange": "Example range 30-100",
+        "minNormal": 30,
+        "maxNormal": 100,
+        "isAbnormal": true,
+        "testDate": "2026-08-20",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "notes": "Synthetic abnormal example."
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "lab-003",
+        "userId": "patient-002",
+        "testName": "Fasting Glucose",
+        "category": "Metabolic",
+        "value": "108",
+        "numericValue": 108,
+        "unit": "mg/dL",
+        "referenceRange": "Example range 70-99",
+        "minNormal": 70,
+        "maxNormal": 99,
+        "isAbnormal": true,
+        "testDate": "2026-09-08",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-004",
+        "aiExplanation": "Illustrative explanation; not a diagnosis."
+      },
+      {
+        "id": "lab-004",
+        "userId": "patient-002",
+        "testName": "TSH",
+        "category": "Endocrine",
+        "value": "2.1",
+        "numericValue": 2.1,
+        "unit": "uIU/mL",
+        "referenceRange": "Example range 0.4-4.5",
+        "minNormal": 0.4,
+        "maxNormal": 4.5,
+        "isAbnormal": false,
+        "testDate": "2026-07-18",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics"
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "lab-003-001",
+        "userId": "patient-003",
+        "testName": "Hemoglobin",
+        "category": "Hematology",
+        "value": "13.8",
+        "numericValue": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "Example range 12.0-16.0",
+        "minNormal": 12.0,
+        "maxNormal": 16.0,
+        "isAbnormal": false,
+        "testDate": "2026-09-10",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-003-002",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      },
+      {
+        "id": "lab-003-002",
+        "userId": "patient-003",
+        "testName": "Vitamin D",
+        "category": "Other",
+        "value": "18",
+        "numericValue": 18,
+        "unit": "ng/mL",
+        "referenceRange": "Example range 30-100",
+        "minNormal": 30,
+        "maxNormal": 100,
+        "isAbnormal": true,
+        "testDate": "2026-08-20",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "notes": "Synthetic abnormal example.",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "lab-004-001",
+        "userId": "patient-004",
+        "testName": "Hemoglobin",
+        "category": "Hematology",
+        "value": "13.8",
+        "numericValue": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "Example range 12.0-16.0",
+        "minNormal": 12.0,
+        "maxNormal": 16.0,
+        "isAbnormal": false,
+        "testDate": "2026-09-10",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-004-002",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      },
+      {
+        "id": "lab-004-002",
+        "userId": "patient-004",
+        "testName": "Vitamin D",
+        "category": "Other",
+        "value": "18",
+        "numericValue": 18,
+        "unit": "ng/mL",
+        "referenceRange": "Example range 30-100",
+        "minNormal": 30,
+        "maxNormal": 100,
+        "isAbnormal": true,
+        "testDate": "2026-08-20",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "notes": "Synthetic abnormal example.",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "lab-005-001",
+        "userId": "patient-005",
+        "testName": "Hemoglobin",
+        "category": "Hematology",
+        "value": "13.8",
+        "numericValue": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "Example range 12.0-16.0",
+        "minNormal": 12.0,
+        "maxNormal": 16.0,
+        "isAbnormal": false,
+        "testDate": "2026-09-10",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-005-002",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      },
+      {
+        "id": "lab-005-002",
+        "userId": "patient-005",
+        "testName": "Vitamin D",
+        "category": "Other",
+        "value": "18",
+        "numericValue": 18,
+        "unit": "ng/mL",
+        "referenceRange": "Example range 30-100",
+        "minNormal": 30,
+        "maxNormal": 100,
+        "isAbnormal": true,
+        "testDate": "2026-08-20",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "notes": "Synthetic abnormal example.",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "lab-006-001",
+        "userId": "patient-006",
+        "testName": "Hemoglobin",
+        "category": "Hematology",
+        "value": "13.8",
+        "numericValue": 13.8,
+        "unit": "g/dL",
+        "referenceRange": "Example range 12.0-16.0",
+        "minNormal": 12.0,
+        "maxNormal": 16.0,
+        "isAbnormal": false,
+        "testDate": "2026-09-10",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "documentId": "doc-006-002",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      },
+      {
+        "id": "lab-006-002",
+        "userId": "patient-006",
+        "testName": "Vitamin D",
+        "category": "Other",
+        "value": "18",
+        "numericValue": 18,
+        "unit": "ng/mL",
+        "referenceRange": "Example range 30-100",
+        "minNormal": 30,
+        "maxNormal": 100,
+        "isAbnormal": true,
+        "testDate": "2026-08-20",
+        "providerId": "lab-provider-001",
+        "providerName": "Greenfield Diagnostics",
+        "notes": "Synthetic abnormal example.",
+        "aiExplanation": "Illustrative demo explanation only; not medical advice."
+      }
+    ]
+  },
+  "appointments": {
+    "patient-001": [
+      {
+        "id": "apt-001",
+        "userId": "patient-001",
+        "title": "General follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-11-05",
+        "time": "10:30",
+        "timeZone": "Asia/Kolkata",
+        "type": "in_person",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Routine follow-up",
+        "notes": "Synthetic appointment.",
+        "userConfirmed": true,
+        "checklist": [
+          {
+            "id": "chk-001",
+            "text": "Prepare questions",
+            "checked": false
+          },
+          {
+            "id": "chk-002",
+            "text": "Bring prior report",
+            "checked": true
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-002",
+        "userId": "patient-001",
+        "title": "Old video consultation",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-08-01",
+        "time": "14:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "video_consult",
+        "status": "completed",
+        "reason": "Historical demo appointment",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "apt-003",
+        "userId": "patient-002",
+        "title": "Lab follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-10-20",
+        "time": "09:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "follow_up",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Review synthetic report",
+        "userConfirmed": false,
+        "checklist": [
+          {
+            "id": "chk-003",
+            "text": "Select reports to share",
+            "checked": false
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-004",
+        "userId": "patient-002",
+        "title": "Cancelled sample appointment",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-09-01",
+        "time": "11:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "lab_draw",
+        "status": "cancelled",
+        "reason": "Demo cancelled status",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "apt-003-001",
+        "userId": "patient-003",
+        "title": "General follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-11-05",
+        "time": "10:30",
+        "timeZone": "Asia/Kolkata",
+        "type": "in_person",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Routine follow-up",
+        "notes": "Synthetic demo appointment; not a real booking.",
+        "userConfirmed": true,
+        "checklist": [
+          {
+            "id": "chk-001",
+            "text": "Prepare questions",
+            "checked": false
+          },
+          {
+            "id": "chk-002",
+            "text": "Bring prior report",
+            "checked": true
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-003-002",
+        "userId": "patient-003",
+        "title": "Old video consultation",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-08-01",
+        "time": "14:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "video_consult",
+        "status": "completed",
+        "reason": "Historical demo appointment",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false,
+        "notes": "Synthetic demo appointment; not a real booking."
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "apt-004-001",
+        "userId": "patient-004",
+        "title": "General follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-11-05",
+        "time": "10:30",
+        "timeZone": "Asia/Kolkata",
+        "type": "in_person",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Routine follow-up",
+        "notes": "Synthetic demo appointment; not a real booking.",
+        "userConfirmed": true,
+        "checklist": [
+          {
+            "id": "chk-001",
+            "text": "Prepare questions",
+            "checked": false
+          },
+          {
+            "id": "chk-002",
+            "text": "Bring prior report",
+            "checked": true
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-004-002",
+        "userId": "patient-004",
+        "title": "Old video consultation",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-08-01",
+        "time": "14:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "video_consult",
+        "status": "completed",
+        "reason": "Historical demo appointment",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false,
+        "notes": "Synthetic demo appointment; not a real booking."
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "apt-005-001",
+        "userId": "patient-005",
+        "title": "General follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-11-05",
+        "time": "10:30",
+        "timeZone": "Asia/Kolkata",
+        "type": "in_person",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Routine follow-up",
+        "notes": "Synthetic demo appointment; not a real booking.",
+        "userConfirmed": true,
+        "checklist": [
+          {
+            "id": "chk-001",
+            "text": "Prepare questions",
+            "checked": false
+          },
+          {
+            "id": "chk-002",
+            "text": "Bring prior report",
+            "checked": true
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-005-002",
+        "userId": "patient-005",
+        "title": "Old video consultation",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-08-01",
+        "time": "14:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "video_consult",
+        "status": "completed",
+        "reason": "Historical demo appointment",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false,
+        "notes": "Synthetic demo appointment; not a real booking."
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "apt-006-001",
+        "userId": "patient-006",
+        "title": "General follow-up",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-11-05",
+        "time": "10:30",
+        "timeZone": "Asia/Kolkata",
+        "type": "in_person",
+        "status": "upcoming",
+        "location": "Sunrise Family Clinic",
+        "reason": "Routine follow-up",
+        "notes": "Synthetic demo appointment; not a real booking.",
+        "userConfirmed": true,
+        "checklist": [
+          {
+            "id": "chk-001",
+            "text": "Prepare questions",
+            "checked": false
+          },
+          {
+            "id": "chk-002",
+            "text": "Bring prior report",
+            "checked": true
+          }
+        ],
+        "reminderEnabled": true
+      },
+      {
+        "id": "apt-006-002",
+        "userId": "patient-006",
+        "title": "Old video consultation",
+        "providerId": "doctor-001",
+        "providerName": "Dr. Maya Sharma",
+        "date": "2026-08-01",
+        "time": "14:00",
+        "timeZone": "Asia/Kolkata",
+        "type": "video_consult",
+        "status": "completed",
+        "reason": "Historical demo appointment",
+        "userConfirmed": true,
+        "checklist": [],
+        "reminderEnabled": false,
+        "notes": "Synthetic demo appointment; not a real booking."
+      }
+    ]
+  },
+  "shareGrants": {
+    "patient-001": [
+      {
+        "id": "grant-001",
+        "token": "DEMO-PATIENT-001-CODE",
+        "userId": "patient-001",
+        "label": "Consultation sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": [
+          "lab_report",
+          "prescription",
+          "consultation_note"
+        ],
+        "specificDocumentIds": ["doc-001", "doc-002"],
+        "createdAt": "2026-09-12T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 1,
+        "lastAccessedAt": "2026-09-12T10:10:00Z"
+      },
+      {
+        "id": "grant-002",
+        "token": "DEMO-REVOKED-CODE-001",
+        "userId": "patient-001",
+        "label": "Revoked demo access",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "createdAt": "2026-07-01T10:00:00Z",
+        "expiresAt": "2026-07-02T10:00:00Z",
+        "isRevoked": true,
+        "accessCount": 0
+      }
+    ],
+    "patient-002": [
+      {
+        "id": "grant-003",
+        "token": "DEMO-PATIENT-002-CODE",
+        "userId": "patient-002",
+        "label": "Selected report sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "specificDocumentIds": ["doc-004"],
+        "createdAt": "2026-09-15T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 0
+      }
+    ],
+    "patient-003": [
+      {
+        "id": "grant-003-001",
+        "token": "DEMO-PATIENT-003-CODE-01",
+        "userId": "patient-003",
+        "label": "Consultation sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": [
+          "lab_report",
+          "prescription",
+          "consultation_note"
+        ],
+        "specificDocumentIds": ["doc-003-001", "doc-003-002"],
+        "createdAt": "2026-09-12T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 1,
+        "lastAccessedAt": "2026-09-12T10:10:00Z"
+      },
+      {
+        "id": "grant-003-002",
+        "token": "DEMO-PATIENT-003-CODE-02",
+        "userId": "patient-003",
+        "label": "Revoked demo access",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "createdAt": "2026-07-01T10:00:00Z",
+        "expiresAt": "2026-07-02T10:00:00Z",
+        "isRevoked": true,
+        "accessCount": 0,
+        "specificDocumentIds": []
+      }
+    ],
+    "patient-004": [
+      {
+        "id": "grant-004-001",
+        "token": "DEMO-PATIENT-004-CODE-01",
+        "userId": "patient-004",
+        "label": "Consultation sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": [
+          "lab_report",
+          "prescription",
+          "consultation_note"
+        ],
+        "specificDocumentIds": ["doc-004-001", "doc-004-002"],
+        "createdAt": "2026-09-12T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 1,
+        "lastAccessedAt": "2026-09-12T10:10:00Z"
+      },
+      {
+        "id": "grant-004-002",
+        "token": "DEMO-PATIENT-004-CODE-02",
+        "userId": "patient-004",
+        "label": "Revoked demo access",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "createdAt": "2026-07-01T10:00:00Z",
+        "expiresAt": "2026-07-02T10:00:00Z",
+        "isRevoked": true,
+        "accessCount": 0,
+        "specificDocumentIds": []
+      }
+    ],
+    "patient-005": [
+      {
+        "id": "grant-005-001",
+        "token": "DEMO-PATIENT-005-CODE-01",
+        "userId": "patient-005",
+        "label": "Consultation sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": [
+          "lab_report",
+          "prescription",
+          "consultation_note"
+        ],
+        "specificDocumentIds": ["doc-005-001", "doc-005-002"],
+        "createdAt": "2026-09-12T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 1,
+        "lastAccessedAt": "2026-09-12T10:10:00Z"
+      },
+      {
+        "id": "grant-005-002",
+        "token": "DEMO-PATIENT-005-CODE-02",
+        "userId": "patient-005",
+        "label": "Revoked demo access",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "createdAt": "2026-07-01T10:00:00Z",
+        "expiresAt": "2026-07-02T10:00:00Z",
+        "isRevoked": true,
+        "accessCount": 0,
+        "specificDocumentIds": []
+      }
+    ],
+    "patient-006": [
+      {
+        "id": "grant-006-001",
+        "token": "DEMO-PATIENT-006-CODE-01",
+        "userId": "patient-006",
+        "label": "Consultation sharing",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": [
+          "lab_report",
+          "prescription",
+          "consultation_note"
+        ],
+        "specificDocumentIds": ["doc-006-001", "doc-006-002"],
+        "createdAt": "2026-09-12T10:00:00Z",
+        "expiresAt": "2026-12-31T23:59:59Z",
+        "isRevoked": false,
+        "accessCount": 1,
+        "lastAccessedAt": "2026-09-12T10:10:00Z"
+      },
+      {
+        "id": "grant-006-002",
+        "token": "DEMO-PATIENT-006-CODE-02",
+        "userId": "patient-006",
+        "label": "Revoked demo access",
+        "recipientName": "Dr. Maya Sharma",
+        "recipientRole": "General Physician",
+        "allowedCategories": ["lab_report"],
+        "createdAt": "2026-07-01T10:00:00Z",
+        "expiresAt": "2026-07-02T10:00:00Z",
+        "isRevoked": true,
+        "accessCount": 0,
+        "specificDocumentIds": []
+      }
+    ]
+  },
+  "shareAuditLogs": [
+    {
+      "id": "log-001",
+      "grantId": "grant-001",
+      "token": "DEMO-PATIENT-001-CODE",
+      "timestamp": "2026-09-12T10:10:00Z",
+      "clientIpMasked": "192.168.***.***",
+      "userAgentSnippet": "Synthetic demo browser"
+    },
+    {
+      "id": "log-003-001",
+      "grantId": "grant-003-001",
+      "token": "DEMO-PATIENT-003-CODE-01",
+      "timestamp": "2026-09-12T10:10:00Z",
+      "clientIpMasked": "192.168.***.***",
+      "userAgentSnippet": "Synthetic demo browser"
+    },
+    {
+      "id": "log-004-001",
+      "grantId": "grant-004-001",
+      "token": "DEMO-PATIENT-004-CODE-01",
+      "timestamp": "2026-09-12T10:10:00Z",
+      "clientIpMasked": "192.168.***.***",
+      "userAgentSnippet": "Synthetic demo browser"
+    },
+    {
+      "id": "log-005-001",
+      "grantId": "grant-005-001",
+      "token": "DEMO-PATIENT-005-CODE-01",
+      "timestamp": "2026-09-12T10:10:00Z",
+      "clientIpMasked": "192.168.***.***",
+      "userAgentSnippet": "Synthetic demo browser"
+    },
+    {
+      "id": "log-006-001",
+      "grantId": "grant-006-001",
+      "token": "DEMO-PATIENT-006-CODE-01",
+      "timestamp": "2026-09-12T10:10:00Z",
+      "clientIpMasked": "192.168.***.***",
+      "userAgentSnippet": "Synthetic demo browser"
+    }
+  ],
+  "emergencyCards": {
+    "patient-001": {
+      "patientName": "Aarav Mehta",
+      "dob": "1992-03-10",
+      "bloodGroup": "O+",
+      "selectedConditions": ["Seasonal allergies"],
+      "confirmedAllergies": ["Pollen (reported; unverified)"],
+      "confirmedMedications": [
+        {
+          "name": "Cetirizine (sample)",
+          "dose": "10 mg",
+          "frequency": "As prescribed"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Nisha Mehta",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20001"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "hospitalPreference": "Sample General Hospital",
+      "notes": "All details are synthetic demo data.",
+      "lastUpdated": "2026-09-12T10:30:00Z"
+    },
+    "patient-002": {
+      "patientName": "Diya Nair",
+      "dob": "1999-07-22",
+      "bloodGroup": "A+",
+      "selectedConditions": ["Routine follow-up"],
+      "confirmedAllergies": [],
+      "confirmedMedications": [
+        {
+          "name": "Sample medication A",
+          "dose": "Example dose",
+          "frequency": "Example frequency"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Anil Nair",
+        "relationship": "Father",
+        "phone": "+91-90000-20002"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "notes": "All details are synthetic demo data.",
+      "lastUpdated": "2026-09-15T12:00:00Z"
+    },
+    "patient-003": {
+      "patientName": "Ishaan Rao",
+      "dob": "1992-03-10",
+      "bloodGroup": "B+",
+      "selectedConditions": ["Routine health screening"],
+      "confirmedAllergies": ["No allergy information recorded"],
+      "confirmedMedications": [
+        {
+          "name": "Cetirizine (sample)",
+          "dose": "10 mg",
+          "frequency": "As prescribed"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Meera Rao",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20003"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "hospitalPreference": "Sample General Hospital",
+      "notes": "All details are synthetic demo data; not for clinical use.",
+      "lastUpdated": "2026-09-12T10:30:00Z"
+    },
+    "patient-004": {
+      "patientName": "Ananya Iyer",
+      "dob": "1992-03-10",
+      "bloodGroup": "AB+",
+      "selectedConditions": ["Vitamin D follow-up"],
+      "confirmedAllergies": ["No allergy information recorded"],
+      "confirmedMedications": [
+        {
+          "name": "Cetirizine (sample)",
+          "dose": "10 mg",
+          "frequency": "As prescribed"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Kavita Iyer",
+        "relationship": "Mother",
+        "phone": "+91-90000-20004"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "hospitalPreference": "Sample General Hospital",
+      "notes": "All details are synthetic demo data; not for clinical use.",
+      "lastUpdated": "2026-09-12T10:30:00Z"
+    },
+    "patient-005": {
+      "patientName": "Kabir Reddy",
+      "dob": "1992-03-10",
+      "bloodGroup": "O-",
+      "selectedConditions": ["Blood pressure monitoring"],
+      "confirmedAllergies": ["No allergy information recorded"],
+      "confirmedMedications": [
+        {
+          "name": "Cetirizine (sample)",
+          "dose": "10 mg",
+          "frequency": "As prescribed"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Sana Reddy",
+        "relationship": "Spouse",
+        "phone": "+91-90000-20005"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "hospitalPreference": "Sample General Hospital",
+      "notes": "All details are synthetic demo data; not for clinical use.",
+      "lastUpdated": "2026-09-12T10:30:00Z"
+    },
+    "patient-006": {
+      "patientName": "Saanvi Das",
+      "dob": "1992-03-10",
+      "bloodGroup": "A-",
+      "selectedConditions": ["Seasonal allergies"],
+      "confirmedAllergies": ["Pollen (reported; unverified)"],
+      "confirmedMedications": [
+        {
+          "name": "Cetirizine (sample)",
+          "dose": "10 mg",
+          "frequency": "As prescribed"
+        }
+      ],
+      "emergencyContact": {
+        "name": "Arjun Das",
+        "relationship": "Sibling",
+        "phone": "+91-90000-20006"
+      },
+      "primaryPhysician": {
+        "name": "Dr. Maya Sharma",
+        "phone": "+91-90000-10001",
+        "hospital": "Sunrise Family Clinic"
+      },
+      "hospitalPreference": "Sample General Hospital",
+      "notes": "All details are synthetic demo data; not for clinical use.",
+      "lastUpdated": "2026-09-12T10:30:00Z"
+    }
+  },
+  "consultationSessions": {
+    "patient-001": [],
+    "patient-002": [],
+    "patient-003": [],
+    "patient-004": [],
+    "patient-005": [],
+    "patient-006": []
+  },
+  "doctorConsultations": {
+    "doctor-001": [
+      {
+        "id": "history-doctor-001-patient-001",
+        "sessionId": "history-doctor-001-patient-001",
+        "patientId": "patient-001",
+        "patientName": "Aarav Mehta",
+        "patientAge": 34,
+        "patientGender": "Male",
+        "patientBloodGroup": "O+",
+        "consultationDate": "2026-09-12",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      },
+      {
+        "id": "history-doctor-001-patient-002",
+        "sessionId": "history-doctor-001-patient-002",
+        "patientId": "patient-002",
+        "patientName": "Diya Nair",
+        "patientAge": 27,
+        "patientGender": "Female",
+        "patientBloodGroup": "A+",
+        "consultationDate": "2026-09-15",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      },
+      {
+        "id": "history-doctor-001-patient-003",
+        "sessionId": "history-doctor-001-patient-003",
+        "patientId": "patient-003",
+        "patientName": "Ishaan Rao",
+        "patientAge": 41,
+        "patientGender": "Male",
+        "patientBloodGroup": "B+",
+        "consultationDate": "2026-09-12",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      },
+      {
+        "id": "history-doctor-001-patient-004",
+        "sessionId": "history-doctor-001-patient-004",
+        "patientId": "patient-004",
+        "patientName": "Ananya Iyer",
+        "patientAge": 23,
+        "patientGender": "Female",
+        "patientBloodGroup": "AB+",
+        "consultationDate": "2026-09-12",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      },
+      {
+        "id": "history-doctor-001-patient-005",
+        "sessionId": "history-doctor-001-patient-005",
+        "patientId": "patient-005",
+        "patientName": "Kabir Reddy",
+        "patientAge": 56,
+        "patientGender": "Male",
+        "patientBloodGroup": "O-",
+        "consultationDate": "2026-09-12",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      },
+      {
+        "id": "history-doctor-001-patient-006",
+        "sessionId": "history-doctor-001-patient-006",
+        "patientId": "patient-006",
+        "patientName": "Saanvi Das",
+        "patientAge": 32,
+        "patientGender": "Female",
+        "patientBloodGroup": "A-",
+        "consultationDate": "2026-09-12",
+        "recordsSharedCount": 0,
+        "summaryCategories": [],
+        "endedAt": "",
+        "endedBy": "doctor",
+        "notes": "Historical visit listed from the supplied dataset."
+      }
+    ],
+    "doctor-002": [],
+    "doctor-003": [],
+    "doctor-004": []
+  }
+}
