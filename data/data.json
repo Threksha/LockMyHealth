@@ -1,6 +1,6 @@
 {
   "_readme": {
-    "description": "Synthetic Meditrail demo database with six patients and four doctor profiles.",
+    "description": "Synthetic LockMyHealth demo database with six patients and four doctor profiles.",
     "important": "All data is fictional and for UI/testing only. Doctor login profiles are demo identities; authentication must be implemented separately. Do not use for clinical decisions.",
     "scope": "Six patients, four doctors, patient-specific provider lists, representative documents, timeline events, medications, lab results, appointments, share grants/audit logs, and emergency cards.",
     "note": "The supplied UserProfile type models patients, not doctor login accounts. Provider represents a clinician contact, not an authenticated doctor account. Doctor login/authentication requires a separate auth/user-role model."
